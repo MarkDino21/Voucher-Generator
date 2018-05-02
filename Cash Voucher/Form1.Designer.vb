@@ -23,11 +23,13 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
-        Me.Button1 = New System.Windows.Forms.Button
-        Me.Button2 = New System.Windows.Forms.Button
-        Me.Button3 = New System.Windows.Forms.Button
-        Me.Panel1 = New System.Windows.Forms.Panel
-        Me.Label1 = New System.Windows.Forms.Label
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.Button3 = New System.Windows.Forms.Button()
+        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.lblSetting = New System.Windows.Forms.Label()
+        Me.lblRMMC = New System.Windows.Forms.Label()
+        Me.lblRDC = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -74,23 +76,48 @@ Partial Class Form1
         Me.Panel1.Size = New System.Drawing.Size(283, 182)
         Me.Panel1.TabIndex = 1
         '
-        'Label1
+        'lblSetting
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(270, -1)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(40, 13)
-        Me.Label1.TabIndex = 1
-        Me.Label1.Text = "Setting"
+        Me.lblSetting.AutoSize = True
+        Me.lblSetting.BackColor = System.Drawing.Color.Transparent
+        Me.lblSetting.Location = New System.Drawing.Point(270, -1)
+        Me.lblSetting.Name = "lblSetting"
+        Me.lblSetting.Size = New System.Drawing.Size(40, 13)
+        Me.lblSetting.TabIndex = 1
+        Me.lblSetting.Text = "Setting"
+        '
+        'lblRMMC
+        '
+        Me.lblRMMC.AutoSize = True
+        Me.lblRMMC.BackColor = System.Drawing.Color.Transparent
+        Me.lblRMMC.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.lblRMMC.Location = New System.Drawing.Point(0, 2)
+        Me.lblRMMC.Name = "lblRMMC"
+        Me.lblRMMC.Size = New System.Drawing.Size(40, 13)
+        Me.lblRMMC.TabIndex = 2
+        Me.lblRMMC.Text = "RMMC"
+        '
+        'lblRDC
+        '
+        Me.lblRDC.AutoSize = True
+        Me.lblRDC.BackColor = System.Drawing.Color.Transparent
+        Me.lblRDC.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.lblRDC.Location = New System.Drawing.Point(46, 2)
+        Me.lblRDC.Name = "lblRDC"
+        Me.lblRDC.Size = New System.Drawing.Size(30, 13)
+        Me.lblRDC.TabIndex = 2
+        Me.lblRDC.Text = "RDC"
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
+        Me.BackgroundImage = Global.Cash_Voucher.My.Resources.Resources.cash_voucher_rm
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(313, 208)
-        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.lblRDC)
+        Me.Controls.Add(Me.lblRMMC)
+        Me.Controls.Add(Me.lblSetting)
         Me.Controls.Add(Me.Panel1)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
@@ -109,6 +136,7 @@ Partial Class Form1
     Friend WithEvents Button2 As System.Windows.Forms.Button
     Friend WithEvents Button3 As System.Windows.Forms.Button
     Friend WithEvents Panel1 As System.Windows.Forms.Panel
-    Friend WithEvents Label1 As System.Windows.Forms.Label
-
+    Friend WithEvents lblSetting As System.Windows.Forms.Label
+    Friend WithEvents lblRMMC As Label
+    Friend WithEvents lblRDC As Label
 End Class

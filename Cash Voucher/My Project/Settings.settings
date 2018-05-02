@@ -5,5 +5,8 @@
     <Setting Name="Series" Type="System.Int32" Scope="User">
       <Value Profile="(Default)">4817</Value>
     </Setting>
+    <Setting Name="Series2" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1001</Value>
+    </Setting>
   </Settings>
 </SettingsFile>
