@@ -46,7 +46,9 @@ Public Class Form1
 
 
 
-        If Numholder >= 1000 Then
+        If Numholder >= 100 Then
+            worksheet.Cells(4, 9).value = "00000" & Numholder
+        ElseIf Numholder >= 1000 Then
             worksheet.Cells(4, 9).value = "0000" & Numholder
         ElseIf Numholder >= 10000 Then
             worksheet.Cells(4, 9).value = "000" & Numholder
