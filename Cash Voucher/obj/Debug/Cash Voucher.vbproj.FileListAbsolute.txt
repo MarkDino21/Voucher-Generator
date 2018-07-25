@@ -26,10 +26,11 @@ E:\Cash Voucher\Cash Voucher\bin\Debug\Microsoft.Vbe.Interop.dll
 E:\Cash Voucher\Cash Voucher\bin\Debug\stdole.dll
 E:\Cash Voucher\Cash Voucher\bin\Debug\Microsoft.Office.Interop.Excel.xml
 E:\Cash Voucher\Cash Voucher\bin\Debug\office.xml
-E:\Cash Voucher\Cash Voucher\obj\Debug\Cash Voucher.vbprojResolveAssemblyReference.cache
 E:\Cash Voucher\Cash Voucher\obj\Debug\Cash_Voucher.Form1.resources
 E:\Cash Voucher\Cash Voucher\obj\Debug\Cash_Voucher.frmSetting.resources
 E:\Cash Voucher\Cash Voucher\obj\Debug\Cash_Voucher.Resources.resources
 E:\Cash Voucher\Cash Voucher\obj\Debug\Cash Voucher.vbproj.GenerateResource.cache
 E:\Cash Voucher\Cash Voucher\obj\Debug\Cash Voucher.vbproj.CoreCompileInputs.cache
 E:\Cash Voucher\Cash Voucher\obj\Debug\Cash Voucher.vbproj.CopyComplete
+E:\Cash Voucher\Cash Voucher\obj\Debug\Cash Voucher.vbprojAssemblyReference.cache
+E:\Cash Voucher\Cash Voucher\obj\Debug\Cash_Voucher.frmCheckV.resources

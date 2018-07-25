@@ -95,6 +95,12 @@
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmCheckV.Designer.vb">
+      <DependentUpon>frmCheckV.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCheckV.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmSetting.Designer.vb">
       <DependentUpon>frmSetting.vb</DependentUpon>
     </Compile>
@@ -121,6 +127,9 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCheckV.resx">
+      <DependentUpon>frmCheckV.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmSetting.resx">
       <DependentUpon>frmSetting.vb</DependentUpon>
