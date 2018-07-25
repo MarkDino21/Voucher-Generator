@@ -33,4 +33,4 @@ E:\Cash Voucher\Cash Voucher\obj\Debug\Cash Voucher.vbproj.GenerateResource.cach
 E:\Cash Voucher\Cash Voucher\obj\Debug\Cash Voucher.vbproj.CoreCompileInputs.cache
 E:\Cash Voucher\Cash Voucher\obj\Debug\Cash Voucher.vbproj.CopyComplete
 E:\Cash Voucher\Cash Voucher\obj\Debug\Cash Voucher.vbprojAssemblyReference.cache
-E:\Cash Voucher\Cash Voucher\obj\Debug\Cash_Voucher.frmCheckV.resources
+E:\Cash Voucher\Cash Voucher\obj\Debug\Cash_Voucher.frmGenerator.resources

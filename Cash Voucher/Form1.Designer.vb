@@ -27,6 +27,7 @@ Partial Class Form1
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Button4 = New System.Windows.Forms.Button()
         Me.lblSetting = New System.Windows.Forms.Label()
         Me.lblRMMC = New System.Windows.Forms.Label()
         Me.lblRDC = New System.Windows.Forms.Label()
@@ -36,7 +37,7 @@ Partial Class Form1
         'Button1
         '
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(12, 118)
+        Me.Button1.Location = New System.Drawing.Point(12, 164)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(260, 44)
         Me.Button1.TabIndex = 0
@@ -46,7 +47,7 @@ Partial Class Form1
         'Button2
         '
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(12, 68)
+        Me.Button2.Location = New System.Drawing.Point(12, 114)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(260, 44)
         Me.Button2.TabIndex = 0
@@ -56,7 +57,7 @@ Partial Class Form1
         'Button3
         '
         Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.Location = New System.Drawing.Point(12, 18)
+        Me.Button3.Location = New System.Drawing.Point(12, 14)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(260, 44)
         Me.Button3.TabIndex = 0
@@ -68,13 +69,24 @@ Partial Class Form1
         Me.Panel1.BackColor = System.Drawing.Color.Transparent
         Me.Panel1.BackgroundImage = CType(resources.GetObject("Panel1.BackgroundImage"), System.Drawing.Image)
         Me.Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel1.Controls.Add(Me.Button4)
         Me.Panel1.Controls.Add(Me.Button3)
         Me.Panel1.Controls.Add(Me.Button2)
         Me.Panel1.Controls.Add(Me.Button1)
         Me.Panel1.Location = New System.Drawing.Point(12, 18)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(283, 182)
+        Me.Panel1.Size = New System.Drawing.Size(283, 219)
         Me.Panel1.TabIndex = 1
+        '
+        'Button4
+        '
+        Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button4.Location = New System.Drawing.Point(12, 64)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(260, 44)
+        Me.Button4.TabIndex = 0
+        Me.Button4.Text = "Check Voucher"
+        Me.Button4.UseVisualStyleBackColor = True
         '
         'lblSetting
         '
@@ -114,14 +126,13 @@ Partial Class Form1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.Cash_Voucher.My.Resources.Resources.cash_voucher_rm
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(313, 208)
+        Me.ClientSize = New System.Drawing.Size(313, 248)
         Me.Controls.Add(Me.lblRDC)
         Me.Controls.Add(Me.lblRMMC)
         Me.Controls.Add(Me.lblSetting)
         Me.Controls.Add(Me.Panel1)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
-        Me.MaximumSize = New System.Drawing.Size(329, 247)
         Me.MinimumSize = New System.Drawing.Size(329, 247)
         Me.Name = "Form1"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
@@ -139,4 +150,5 @@ Partial Class Form1
     Friend WithEvents lblSetting As System.Windows.Forms.Label
     Friend WithEvents lblRMMC As Label
     Friend WithEvents lblRDC As Label
+    Friend WithEvents Button4 As Button
 End Class
