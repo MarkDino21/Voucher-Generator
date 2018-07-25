@@ -28,8 +28,8 @@ Partial Class frmSetting
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.Label3 = New System.Windows.Forms.Label()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.Label3 = New System.Windows.Forms.Label()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -64,6 +64,7 @@ Partial Class frmSetting
         'Label2
         '
         Me.Label2.AutoSize = True
+        Me.Label2.BackColor = System.Drawing.Color.Transparent
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.Location = New System.Drawing.Point(100, 9)
         Me.Label2.Name = "Label2"
@@ -87,6 +88,14 @@ Partial Class frmSetting
         Me.GroupBox1.TabIndex = 3
         Me.GroupBox1.TabStop = False
         '
+        'TextBox2
+        '
+        Me.TextBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox2.Location = New System.Drawing.Point(126, 56)
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(116, 22)
+        Me.TextBox2.TabIndex = 2
+        '
         'Label3
         '
         Me.Label3.AutoSize = True
@@ -96,14 +105,6 @@ Partial Class frmSetting
         Me.Label3.Size = New System.Drawing.Size(103, 20)
         Me.Label3.TabIndex = 1
         Me.Label3.Text = "Check Series"
-        '
-        'TextBox2
-        '
-        Me.TextBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox2.Location = New System.Drawing.Point(126, 56)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(116, 22)
-        Me.TextBox2.TabIndex = 2
         '
         'frmSetting
         '
@@ -115,6 +116,7 @@ Partial Class frmSetting
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.Label2)
         Me.MaximizeBox = False
+        Me.MaximumSize = New System.Drawing.Size(317, 220)
         Me.MinimizeBox = False
         Me.MinimumSize = New System.Drawing.Size(317, 208)
         Me.Name = "frmSetting"
