@@ -8,5 +8,11 @@
     <Setting Name="Series2" Type="System.Int32" Scope="User">
       <Value Profile="(Default)">1001</Value>
     </Setting>
+    <Setting Name="CheckSeries" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="CheckSeries2" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
   </Settings>
 </SettingsFile>
