@@ -156,6 +156,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="CASH VOUCHER.ico" />
+    <None Include="Resources\check.png" />
+    <None Include="Resources\cash.png" />
     <None Include="Resources\cash voucher rm.jpg" />
     <None Include="Resources\cash voucher realty.jpg" />
   </ItemGroup>

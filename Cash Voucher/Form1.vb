@@ -53,12 +53,14 @@ Public Class Form1
         'workbook.Close()
         'Process.Start(fileName)
         frmGenerator.lblCaption.Text = "Cash Voucher"
+        frmGenerator.Thumbnail.Image = My.Resources.cash
         WindowState = FormWindowState.Minimized
 
     End Sub
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
         vType = "Check"
         frmGenerator.lblCaption.Text = "Check Voucher"
+        frmGenerator.Thumbnail.Image = My.Resources.check
         frmGenerator.Show()
         WindowState = FormWindowState.Minimized
     End Sub

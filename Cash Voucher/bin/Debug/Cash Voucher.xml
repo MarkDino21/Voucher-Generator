@@ -22,12 +22,22 @@ Cash Voucher
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="P:Cash_Voucher.My.Resources.Resources.cash">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:Cash_Voucher.My.Resources.Resources.cash_voucher_realty">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
 <member name="P:Cash_Voucher.My.Resources.Resources.cash_voucher_rm">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cash_Voucher.My.Resources.Resources.check">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>

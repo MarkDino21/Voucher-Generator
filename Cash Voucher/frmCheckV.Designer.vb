@@ -30,6 +30,8 @@ Partial Class frmGenerator
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
+        Me.Thumbnail = New System.Windows.Forms.PictureBox()
+        CType(Me.Thumbnail, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'ComboBox1
@@ -108,12 +110,23 @@ Partial Class frmGenerator
         Me.Label4.TabIndex = 4
         Me.Label4.Text = "Supplier:"
         '
+        'Thumbnail
+        '
+        Me.Thumbnail.BackColor = System.Drawing.Color.Transparent
+        Me.Thumbnail.Location = New System.Drawing.Point(41, -1)
+        Me.Thumbnail.Name = "Thumbnail"
+        Me.Thumbnail.Size = New System.Drawing.Size(75, 60)
+        Me.Thumbnail.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.Thumbnail.TabIndex = 5
+        Me.Thumbnail.TabStop = False
+        '
         'frmGenerator
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(399, 198)
+        Me.Controls.Add(Me.Thumbnail)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
@@ -126,6 +139,7 @@ Partial Class frmGenerator
         Me.ShowIcon = False
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Voucher Generator"
+        CType(Me.Thumbnail, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -139,4 +153,5 @@ Partial Class frmGenerator
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents Label4 As Label
+    Friend WithEvents Thumbnail As PictureBox
 End Class

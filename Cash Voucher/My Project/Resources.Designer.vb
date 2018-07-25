@@ -63,6 +63,16 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property cash() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("cash", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property cash_voucher_realty() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("cash voucher realty", resourceCulture)
@@ -76,6 +86,16 @@ Namespace My.Resources
         Friend ReadOnly Property cash_voucher_rm() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("cash voucher rm", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property check() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("check", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
