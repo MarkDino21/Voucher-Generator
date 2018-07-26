@@ -37,7 +37,17 @@ Cash Voucher
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:Cash_Voucher.My.Resources.Resources.cash40">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:Cash_Voucher.My.Resources.Resources.check">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cash_Voucher.My.Resources.Resources.check40">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>

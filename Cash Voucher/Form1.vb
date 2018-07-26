@@ -31,27 +31,7 @@ Public Class Form1
 
     Private Sub Button3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button3.Click
         vType = "Cash"
-        'If cv = "RMMC" Then
-        '    Numholder = My.Settings.Series + 1
-        '    My.Settings.Series += 1
-        'ElseIf cv = "RDC" Then
-        '    Numholder = My.Settings.Series2 + 1
-        '    My.Settings.Series2 += 1
-        'End If
-
-        'workbook = APP.Workbooks.Open(Application.StartupPath & "\res\Cash Voucher.xlsx")
-        'worksheet = workbook.Worksheets("Cash Voucher")
-        'My.Settings.Save()
-
-        'Generate_Num()
         frmGenerator.Show()
-
-        'worksheet.Cells(5, 9).value = Date.Today
-
-        'workbook.Save()
-        'workbook.SaveAs(fileName)
-        'workbook.Close()
-        'Process.Start(fileName)
         frmGenerator.lblCaption.Text = "Cash Voucher"
         frmGenerator.Thumbnail.Image = My.Resources.cash
         WindowState = FormWindowState.Minimized
@@ -64,27 +44,7 @@ Public Class Form1
         frmGenerator.Show()
         WindowState = FormWindowState.Minimized
     End Sub
-    Public Sub Generate_Num()
-        If Numholder >= 100 Then
-            'worksheet.Cells(4, 9).value = "00000" & Numholder
-            frmGenerator.txtNum.Text = "00000" & Numholder
-        ElseIf Numholder >= 1000 Then
-            'worksheet.Cells(4, 9).value = "0000" & Numholder
-            frmGenerator.txtNum.Text = "0000" & Numholder
-        ElseIf Numholder >= 10000 Then
-            'worksheet.Cells(4, 9).value = "000" & Numholder
-            frmGenerator.txtNum.Text = "000" & Numholder
-        ElseIf Numholder >= 100000 Then
-            'worksheet.Cells(4, 9).value = "00" & Numholder
-            frmGenerator.txtNum.Text = "00" & Numholder
-        ElseIf Numholder >= 100000 Then
-            'worksheet.Cells(4, 9).value = "0" & Numholder
-            frmGenerator.txtNum.Text = "0" & Numholder
-        ElseIf Numholder >= 100000 Then
-            'worksheet.Cells(4, 9).value = Numholder
-            frmGenerator.txtNum.Text = Numholder
-        End If
-    End Sub
+
     Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button2.Click
         Process.Start(Application.StartupPath & "\res\Suppliers.xlsx")
         Me.WindowState = FormWindowState.Minimized
