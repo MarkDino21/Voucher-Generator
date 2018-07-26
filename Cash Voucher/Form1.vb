@@ -64,8 +64,8 @@ Public Class Form1
         cv = "RMMC"
         BackgroundImage = My.Resources.cash_voucher_rm
         lblRDC.BackColor = Color.Transparent
-        Button3.ForeColor = Color.Blue
-        Button4.ForeColor = Color.Blue
+        Button3.ForeColor = Color.Navy
+        Button4.ForeColor = Color.Navy
     End Sub
 
     Private Sub Label3_Click(sender As Object, e As EventArgs) Handles lblRDC.Click
@@ -78,5 +78,16 @@ Public Class Form1
 
     End Sub
 
+    Private Sub Button1_MouseHover(sender As Object, e As EventArgs) Handles Button1.MouseEnter, Button2.MouseEnter, Button3.MouseEnter, Button4.MouseEnter
+        If cv = "RMMC" Then
+            sender.backcolor = Color.PaleTurquoise
+        Else
+            sender.backcolor = Color.FromArgb(192, 255, 192)
+        End If
 
+    End Sub
+
+    Private Sub Button4_MouseLeave(sender As Object, e As EventArgs) Handles Button4.MouseLeave, Button3.MouseLeave, Button2.MouseLeave, Button1.MouseLeave
+        sender.backcolor = Color.Transparent
+    End Sub
 End Class

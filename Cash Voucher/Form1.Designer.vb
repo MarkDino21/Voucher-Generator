@@ -36,22 +36,30 @@ Partial Class Form1
         '
         'Button1
         '
+        Me.Button1.BackColor = System.Drawing.Color.Transparent
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(12, 178)
+        Me.Button1.Image = Global.Cash_Voucher.My.Resources.Resources.exit38
+        Me.Button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.Button1.Location = New System.Drawing.Point(12, 185)
         Me.Button1.Name = "Button1"
+        Me.Button1.Padding = New System.Windows.Forms.Padding(5, 0, 0, 0)
         Me.Button1.Size = New System.Drawing.Size(260, 44)
         Me.Button1.TabIndex = 3
         Me.Button1.Text = "Exit"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Button1.UseVisualStyleBackColor = False
         '
         'Button2
         '
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(12, 130)
+        Me.Button2.ForeColor = System.Drawing.Color.Navy
+        Me.Button2.Image = Global.Cash_Voucher.My.Resources.Resources.Supplies40
+        Me.Button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.Button2.Location = New System.Drawing.Point(12, 128)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(260, 44)
+        Me.Button2.Padding = New System.Windows.Forms.Padding(5, 0, 0, 0)
+        Me.Button2.Size = New System.Drawing.Size(260, 53)
         Me.Button2.TabIndex = 2
-        Me.Button2.Text = "Update Supplier"
+        Me.Button2.Text = "Suppliers"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'Button3
@@ -61,6 +69,7 @@ Partial Class Form1
         Me.Button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.Button3.Location = New System.Drawing.Point(12, 10)
         Me.Button3.Name = "Button3"
+        Me.Button3.Padding = New System.Windows.Forms.Padding(5, 0, 0, 0)
         Me.Button3.Size = New System.Drawing.Size(260, 54)
         Me.Button3.TabIndex = 0
         Me.Button3.Text = "Cash Voucher"
@@ -77,7 +86,7 @@ Partial Class Form1
         Me.Panel1.Controls.Add(Me.Button1)
         Me.Panel1.Location = New System.Drawing.Point(12, 18)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(283, 230)
+        Me.Panel1.Size = New System.Drawing.Size(283, 236)
         Me.Panel1.TabIndex = 1
         '
         'Button4
@@ -85,8 +94,9 @@ Partial Class Form1
         Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button4.Image = Global.Cash_Voucher.My.Resources.Resources.check40
         Me.Button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button4.Location = New System.Drawing.Point(12, 71)
+        Me.Button4.Location = New System.Drawing.Point(12, 69)
         Me.Button4.Name = "Button4"
+        Me.Button4.Padding = New System.Windows.Forms.Padding(5, 0, 0, 0)
         Me.Button4.Size = New System.Drawing.Size(260, 54)
         Me.Button4.TabIndex = 1
         Me.Button4.Text = "Check Voucher"
