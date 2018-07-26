@@ -37,29 +37,31 @@ Partial Class Form1
         'Button1
         '
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(12, 164)
+        Me.Button1.Location = New System.Drawing.Point(12, 178)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(260, 44)
-        Me.Button1.TabIndex = 0
+        Me.Button1.TabIndex = 3
         Me.Button1.Text = "Exit"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Button2
         '
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(12, 114)
+        Me.Button2.Location = New System.Drawing.Point(12, 130)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(260, 44)
-        Me.Button2.TabIndex = 0
+        Me.Button2.TabIndex = 2
         Me.Button2.Text = "Update Supplier"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'Button3
         '
         Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.Location = New System.Drawing.Point(12, 14)
+        Me.Button3.Image = Global.Cash_Voucher.My.Resources.Resources.cash40
+        Me.Button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.Button3.Location = New System.Drawing.Point(12, 10)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(260, 44)
+        Me.Button3.Size = New System.Drawing.Size(260, 54)
         Me.Button3.TabIndex = 0
         Me.Button3.Text = "Cash Voucher"
         Me.Button3.UseVisualStyleBackColor = True
@@ -75,16 +77,18 @@ Partial Class Form1
         Me.Panel1.Controls.Add(Me.Button1)
         Me.Panel1.Location = New System.Drawing.Point(12, 18)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(283, 219)
+        Me.Panel1.Size = New System.Drawing.Size(283, 230)
         Me.Panel1.TabIndex = 1
         '
         'Button4
         '
         Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button4.Location = New System.Drawing.Point(12, 64)
+        Me.Button4.Image = Global.Cash_Voucher.My.Resources.Resources.check40
+        Me.Button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.Button4.Location = New System.Drawing.Point(12, 71)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(260, 44)
-        Me.Button4.TabIndex = 0
+        Me.Button4.Size = New System.Drawing.Size(260, 54)
+        Me.Button4.TabIndex = 1
         Me.Button4.Text = "Check Voucher"
         Me.Button4.UseVisualStyleBackColor = True
         '
@@ -126,15 +130,15 @@ Partial Class Form1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.Cash_Voucher.My.Resources.Resources.cash_voucher_rm
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(313, 248)
+        Me.ClientSize = New System.Drawing.Size(313, 258)
         Me.Controls.Add(Me.lblRDC)
         Me.Controls.Add(Me.lblRMMC)
         Me.Controls.Add(Me.lblSetting)
         Me.Controls.Add(Me.Panel1)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
-        Me.MaximumSize = New System.Drawing.Size(329, 287)
-        Me.MinimumSize = New System.Drawing.Size(329, 247)
+        Me.MaximumSize = New System.Drawing.Size(329, 297)
+        Me.MinimumSize = New System.Drawing.Size(329, 297)
         Me.Name = "Form1"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Cash Voucher"
