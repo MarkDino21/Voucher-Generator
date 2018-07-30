@@ -119,4 +119,23 @@ Public Class frmGenerator
         End If
     End Sub
 
+    Private Sub txtNum_KeyDown(sender As Object, e As KeyEventArgs) Handles txtNum.KeyDown
+        If e.KeyCode = Keys.Enter Then
+            txtDate.Focus()
+        End If
+    End Sub
+
+    Private Sub txtDate_KeyDown(sender As Object, e As KeyEventArgs) Handles txtDate.KeyDown
+        If e.KeyCode = Keys.Enter Then
+            ComboBox1.Focus()
+        End If
+    End Sub
+
+
+    Private Sub ComboBox1_KeyDown(sender As Object, e As KeyEventArgs) Handles ComboBox1.KeyDown
+        If e.KeyCode = Keys.Enter Then
+            Button1.Focus()
+
+        End If
+    End Sub
 End Class
